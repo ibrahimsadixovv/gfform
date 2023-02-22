@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.questions-page{
+height: 270vh;
+width: 100%;
+display: flex;
+justify-content: center;
+position: relative;
+
+
+}
+.bgc    {
+    height: 270vh;
+width: 100%;
+position: absolute;
+background-image: url("https://w0.peakpx.com/wallpaper/425/491/HD-wallpaper-hatsune-miku-vocaloid-main-characters-anime-characters-art-japanese-manga.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: .5;
+}
+
+.questions-container{
+    padding-top: 20px;
+    width: 90%;
+    height: 230vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    z-index: 3;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.question{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 30px;
+    width: 60%;
+    height: 400px;
+    background-color: rgba(255, 255, 255, .6);
+}
+ul li{
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: medium;
+}
+.score-page{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    padding-left: 20px;
+    z-index: 5;
+}
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(71, 110, 34);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: fixed;
+}
+.basma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    right: 10px;
+    height: 70px;
+    width: 150px;
+    background-color: rgb(175, 0, 0);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    position: fixed;
+    cursor: pointer;
+}
+
+.message{
+    display: none;
+    font-size: large;
+    font-weight: bold;
+  
+}
+
+.message-page{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 10px;
+    width: 100%;
+}
+
+
+.oglan{
+    display: none;
+    
+}
+.yox{
+    display: none;
+}
+.belke{
+    display: none;
+   
+}
+
+.olarolar{
+    display: none;
+  
+}
+.olsun{
+    display: none;
+    flex-direction: column;
+   
+}
+.result {
+    
+    height: 80px;
+    width: 30%;
+    font-size: large;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.netice{
+    cursor: pointer;
+    height: 45px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    background-color: rgb(160, 125, 170);
+    border-radius: 30px;
+    color: white;
+    border-width: 1px;
+    border-color:rgb(160, 125, 170) ;
+    border-style: solid;
+    font-weight: 500;
+    transition: .3s;
+
+}
+.button-page{
+    height: 195px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.netice:hover{
+    
+    border: 1px solid rgb(160, 125, 170);
+    background-color: transparent;
+    color: rgb(160, 125, 170);
+}
+.gifDiv{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.none{
+    height: 200px;
+    width: 60%;
+}
